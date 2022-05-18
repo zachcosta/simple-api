@@ -1,2 +1,2 @@
 # magic-api
-A test API using data downloaded from Scryfall
+A test API using express, MySQL, and either Angular or React
