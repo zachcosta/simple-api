@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon book-api.js"
+    "start": "nodemon book-api.js",
+    "read-file": "nodemon magic-api/update-prices.js"
   },
   "repository": {
     "type": "git",

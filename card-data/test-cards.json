@@ -1,0 +1,126 @@
+{
+  "object": "card",
+  "id": "825d4bac-9433-4956-9126-358432c22818",
+  "oracle_id": "40b82bb1-179b-4859-acf8-74b5cf019fb8",
+  "multiverse_ids": [],
+  "arena_id": 73346,
+  "name": "A-Kargan Intimidator",
+  "lang": "en",
+  "released_at": "2020-09-25",
+  "uri": "https://api.scryfall.com/cards/825d4bac-9433-4956-9126-358432c22818",
+  "scryfall_uri": "https://scryfall.com/card/znr/A-145/a-kargan-intimidator?utm_source=api",
+  "layout": "normal",
+  "highres_image": false,
+  "image_status": "lowres",
+  "image_uris": {
+    "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
+    "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
+    "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
+    "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/825d4bac-9433-4956-9126-358432c22818.png?1656684840",
+    "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
+    "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840"
+  },
+  "mana_cost": "{1}{R}",
+  "cmc": 2,
+  "type_line": "Creature — Human Warrior",
+  "oracle_text": "Cowards can't block Warriors.\n{1}: Choose one that hasn't been chosen this turn —\n• Target Warrior gets +1/+1 and gains trample until end of turn.\n• Target creature becomes a Coward until end of turn.",
+  "power": "3",
+  "toughness": "1",
+  "colors": [
+    "R"
+  ],
+  "color_identity": [
+    "R"
+  ],
+  "keywords": [],
+  "all_parts": [
+    {
+      "object": "related_card",
+      "id": "825d4bac-9433-4956-9126-358432c22818",
+      "component": "combo_piece",
+      "name": "A-Kargan Intimidator",
+      "type_line": "Creature — Human Warrior",
+      "uri": "https://api.scryfall.com/cards/825d4bac-9433-4956-9126-358432c22818"
+    },
+    {
+      "object": "related_card",
+      "id": "0885acdc-9b4c-4e28-8785-9e721a27e81e",
+      "component": "combo_piece",
+      "name": "Kargan Intimidator",
+      "type_line": "Creature — Human Warrior",
+      "uri": "https://api.scryfall.com/cards/0885acdc-9b4c-4e28-8785-9e721a27e81e"
+    }
+  ],
+  "legalities": {
+    "standard": "not_legal",
+    "future": "not_legal",
+    "historic": "legal",
+    "gladiator": "legal",
+    "pioneer": "not_legal",
+    "explorer": "not_legal",
+    "modern": "not_legal",
+    "legacy": "not_legal",
+    "pauper": "not_legal",
+    "vintage": "not_legal",
+    "penny": "not_legal",
+    "commander": "not_legal",
+    "brawl": "not_legal",
+    "historicbrawl": "legal",
+    "alchemy": "legal",
+    "paupercommander": "not_legal",
+    "duel": "not_legal",
+    "oldschool": "not_legal",
+    "premodern": "not_legal"
+  },
+  "games": [
+    "arena"
+  ],
+  "reserved": false,
+  "foil": false,
+  "nonfoil": true,
+  "finishes": [
+    "nonfoil"
+  ],
+  "oversized": false,
+  "promo": false,
+  "reprint": false,
+  "variation": false,
+  "set_id": "f4e01fa7-b254-42dd-849f-69b58027a8c4",
+  "set": "znr",
+  "set_name": "Zendikar Rising",
+  "set_type": "expansion",
+  "set_uri": "https://api.scryfall.com/sets/f4e01fa7-b254-42dd-849f-69b58027a8c4",
+  "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aznr&unique=prints",
+  "scryfall_set_uri": "https://scryfall.com/sets/znr?utm_source=api",
+  "rulings_uri": "https://api.scryfall.com/cards/825d4bac-9433-4956-9126-358432c22818/rulings",
+  "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A40b82bb1-179b-4859-acf8-74b5cf019fb8&unique=prints",
+  "collector_number": "A-145",
+  "digital": true,
+  "rarity": "rare",
+  "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+  "artist": "Kieran Yanner",
+  "artist_ids": [
+    "aa7e89ed-d294-4633-9057-ce04dacfcfa4"
+  ],
+  "illustration_id": "00c3e99f-ceab-4002-8450-f53952a6c0b7",
+  "border_color": "black",
+  "frame": "2015",
+  "security_stamp": "arena",
+  "full_art": false,
+  "textless": false,
+  "booster": false,
+  "story_spotlight": false,
+  "prices": {
+    "usd": null,
+    "usd_foil": null,
+    "usd_etched": null,
+    "eur": null,
+    "eur_foil": null,
+    "tix": null
+  },
+  "related_uris": {
+    "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=A-Kargan+Intimidator&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+    "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=A-Kargan+Intimidator&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+    "edhrec": "https://edhrec.com/route/?cc=A-Kargan+Intimidator"
+  }
+}
