@@ -7,8 +7,9 @@ var fs = require('fs');
 let fileData = fs.readFileSync(fileLocation, 'utf-8');
 let cardData = JSON.parse(fileData);
 
-console.log(fileData);
-console.log(cardData.name);
+cardData.data.forEach(card => {
+    console.log(card.name);
+})
 
 process.exit();
 

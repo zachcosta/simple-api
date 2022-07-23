@@ -1,126 +1,1494 @@
 {
-  "object": "card",
-  "id": "825d4bac-9433-4956-9126-358432c22818",
-  "oracle_id": "40b82bb1-179b-4859-acf8-74b5cf019fb8",
-  "multiverse_ids": [],
-  "arena_id": 73346,
-  "name": "A-Kargan Intimidator",
-  "lang": "en",
-  "released_at": "2020-09-25",
-  "uri": "https://api.scryfall.com/cards/825d4bac-9433-4956-9126-358432c22818",
-  "scryfall_uri": "https://scryfall.com/card/znr/A-145/a-kargan-intimidator?utm_source=api",
-  "layout": "normal",
-  "highres_image": false,
-  "image_status": "lowres",
-  "image_uris": {
-    "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
-    "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
-    "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
-    "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/8/2/825d4bac-9433-4956-9126-358432c22818.png?1656684840",
-    "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840",
-    "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/8/2/825d4bac-9433-4956-9126-358432c22818.jpg?1656684840"
-  },
-  "mana_cost": "{1}{R}",
-  "cmc": 2,
-  "type_line": "Creature — Human Warrior",
-  "oracle_text": "Cowards can't block Warriors.\n{1}: Choose one that hasn't been chosen this turn —\n• Target Warrior gets +1/+1 and gains trample until end of turn.\n• Target creature becomes a Coward until end of turn.",
-  "power": "3",
-  "toughness": "1",
-  "colors": [
-    "R"
-  ],
-  "color_identity": [
-    "R"
-  ],
-  "keywords": [],
-  "all_parts": [
+  "object": "list",
+  "total_cards": 11,
+  "has_more": false,
+  "data": [
     {
-      "object": "related_card",
-      "id": "825d4bac-9433-4956-9126-358432c22818",
-      "component": "combo_piece",
-      "name": "A-Kargan Intimidator",
-      "type_line": "Creature — Human Warrior",
-      "uri": "https://api.scryfall.com/cards/825d4bac-9433-4956-9126-358432c22818"
+      "object": "card",
+      "id": "f5770e8a-045d-42bc-b6aa-17b89488c9d4",
+      "oracle_id": "9d3c7c96-056f-408e-a834-fa45a430d3d4",
+      "multiverse_ids": [],
+      "arena_id": 73751,
+      "tcgplayer_id": 206221,
+      "cardmarket_id": 429246,
+      "name": "Daxos, Blessed by the Sun",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/f5770e8a-045d-42bc-b6aa-17b89488c9d4",
+      "scryfall_uri": "https://scryfall.com/card/thb/258/daxos-blessed-by-the-sun?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/f/5/f5770e8a-045d-42bc-b6aa-17b89488c9d4.jpg?1581481353",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/5/f5770e8a-045d-42bc-b6aa-17b89488c9d4.jpg?1581481353",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/f/5/f5770e8a-045d-42bc-b6aa-17b89488c9d4.jpg?1581481353",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/f/5/f5770e8a-045d-42bc-b6aa-17b89488c9d4.png?1581481353",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/f/5/f5770e8a-045d-42bc-b6aa-17b89488c9d4.jpg?1581481353",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/5/f5770e8a-045d-42bc-b6aa-17b89488c9d4.jpg?1581481353"
+      },
+      "mana_cost": "{W}{W}",
+      "cmc": 2.0,
+      "type_line": "Legendary Enchantment Creature — Demigod",
+      "oracle_text": "Daxos's toughness is equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)\nWhenever another creature you control enters the battlefield or dies, you gain 1 life.",
+      "power": "2",
+      "toughness": "*",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "keywords": [],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "restricted",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/f5770e8a-045d-42bc-b6aa-17b89488c9d4/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A9d3c7c96-056f-408e-a834-fa45a430d3d4\u0026unique=prints",
+      "collector_number": "258",
+      "digital": false,
+      "rarity": "uncommon",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "536efd6d-4d21-4c61-8e34-5cfda7037c42",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary"
+      ],
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 1437,
+      "penny_rank": 2310,
+      "preview": {
+        "source": "Wizards of the Coast",
+        "source_uri": "https://magic.wizards.com/en/articles/archive/card-image-gallery/theros-beyond-death-variants",
+        "previewed_at": "2019-12-13"
+      },
+      "prices": {
+        "usd": "0.08",
+        "usd_foil": "0.18",
+        "usd_etched": null,
+        "eur": "0.10",
+        "eur_foil": "0.03",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Daxos%2C+Blessed+by+the+Sun\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Daxos%2C+Blessed+by+the+Sun\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Daxos%2C+Blessed+by+the+Sun"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206221?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Daxos%2C+Blessed+by+the+Sun\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Daxos%2C+Blessed+by+the+Sun\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
     },
     {
-      "object": "related_card",
-      "id": "0885acdc-9b4c-4e28-8785-9e721a27e81e",
-      "component": "combo_piece",
-      "name": "Kargan Intimidator",
-      "type_line": "Creature — Human Warrior",
-      "uri": "https://api.scryfall.com/cards/0885acdc-9b4c-4e28-8785-9e721a27e81e"
+      "object": "card",
+      "id": "e11cf760-da35-41f2-8cf5-a5141103eeb3",
+      "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+      "multiverse_ids": [],
+      "arena_id": 73752,
+      "tcgplayer_id": 206693,
+      "cardmarket_id": 430379,
+      "name": "Heliod, Sun-Crowned",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/e11cf760-da35-41f2-8cf5-a5141103eeb3",
+      "scryfall_uri": "https://scryfall.com/card/thb/259/heliod-sun-crowned?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1654049957",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1654049957",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1654049957",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.png?1654049957",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1654049957",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1654049957"
+      },
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to white is less than five, Heliod isn't a creature.\nWhenever you gain life, put a +1/+1 counter on target creature or enchantment you control.\n{1}{W}: Another target creature gains lifelink until end of turn.",
+      "power": "5",
+      "toughness": "5",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/e11cf760-da35-41f2-8cf5-a5141103eeb3/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A63e596a2-9126-4af6-8782-c38687d664ad\u0026unique=prints",
+      "collector_number": "259",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "6e935860-7052-435f-81d5-fdd7c5e894f3",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary",
+        "fullart"
+      ],
+      "security_stamp": "oval",
+      "full_art": true,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 829,
+      "preview": {
+        "source": "Wizards of the Coast",
+        "source_uri": "https://magic.wizards.com/en/articles/archive/card-image-gallery/theros-beyond-death-variants",
+        "previewed_at": "2020-01-02"
+      },
+      "prices": {
+        "usd": "16.76",
+        "usd_foil": "25.26",
+        "usd_etched": null,
+        "eur": "22.19",
+        "eur_foil": "24.00",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Heliod%2C+Sun-Crowned\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Heliod%2C+Sun-Crowned\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Heliod%2C+Sun-Crowned"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206693?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Heliod%2C+Sun-Crowned\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Heliod%2C+Sun-Crowned\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "69641e64-d4f5-4654-8da8-9eb9a71e51c8",
+      "oracle_id": "faf081dc-1fb2-47ac-a9c7-8001b4904120",
+      "multiverse_ids": [],
+      "arena_id": 73753,
+      "tcgplayer_id": 206853,
+      "cardmarket_id": 430949,
+      "name": "Callaphe, Beloved of the Sea",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/69641e64-d4f5-4654-8da8-9eb9a71e51c8",
+      "scryfall_uri": "https://scryfall.com/card/thb/260/callaphe-beloved-of-the-sea?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/6/9/69641e64-d4f5-4654-8da8-9eb9a71e51c8.jpg?1581481367",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69641e64-d4f5-4654-8da8-9eb9a71e51c8.jpg?1581481367",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/6/9/69641e64-d4f5-4654-8da8-9eb9a71e51c8.jpg?1581481367",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/6/9/69641e64-d4f5-4654-8da8-9eb9a71e51c8.png?1581481367",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/6/9/69641e64-d4f5-4654-8da8-9eb9a71e51c8.jpg?1581481367",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/9/69641e64-d4f5-4654-8da8-9eb9a71e51c8.jpg?1581481367"
+      },
+      "mana_cost": "{1}{U}{U}",
+      "cmc": 3.0,
+      "type_line": "Legendary Enchantment Creature — Demigod",
+      "oracle_text": "Callaphe's power is equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)\nCreatures and enchantments you control have \"Spells your opponents cast that target this permanent cost {1} more to cast.\"",
+      "power": "*",
+      "toughness": "3",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "keywords": [],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "restricted",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/69641e64-d4f5-4654-8da8-9eb9a71e51c8/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Afaf081dc-1fb2-47ac-a9c7-8001b4904120\u0026unique=prints",
+      "collector_number": "260",
+      "digital": false,
+      "rarity": "uncommon",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "2a2e29cc-1ecd-4833-818f-63218eca1b8a",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary"
+      ],
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 3404,
+      "penny_rank": 6569,
+      "preview": {
+        "source": "SpazioGames",
+        "source_uri": "https://www.spaziogames.it/magic-the-gathering-theros-oltre-la-morte-in-esclusiva/",
+        "previewed_at": "2020-01-03"
+      },
+      "prices": {
+        "usd": "0.09",
+        "usd_foil": "0.10",
+        "usd_etched": null,
+        "eur": "0.11",
+        "eur_foil": "0.02",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Callaphe%2C+Beloved+of+the+Sea\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Callaphe%2C+Beloved+of+the+Sea\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Callaphe%2C+Beloved+of+the+Sea"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206853?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Callaphe%2C+Beloved+of+the+Sea\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Callaphe%2C+Beloved+of+the+Sea\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "27b52628-de05-4ec1-9978-e998cf17bb26",
+      "oracle_id": "2396299a-c031-4020-b13e-1f9bf9d64511",
+      "multiverse_ids": [],
+      "arena_id": 73754,
+      "tcgplayer_id": 206758,
+      "cardmarket_id": 430524,
+      "name": "Thassa, Deep-Dwelling",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/27b52628-de05-4ec1-9978-e998cf17bb26",
+      "scryfall_uri": "https://scryfall.com/card/thb/261/thassa-deep-dwelling?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/7/27b52628-de05-4ec1-9978-e998cf17bb26.jpg?1654049962",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/27b52628-de05-4ec1-9978-e998cf17bb26.jpg?1654049962",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/7/27b52628-de05-4ec1-9978-e998cf17bb26.jpg?1654049962",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/7/27b52628-de05-4ec1-9978-e998cf17bb26.png?1654049962",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/7/27b52628-de05-4ec1-9978-e998cf17bb26.jpg?1654049962",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/7/27b52628-de05-4ec1-9978-e998cf17bb26.jpg?1654049962"
+      },
+      "mana_cost": "{3}{U}",
+      "cmc": 4.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to blue is less than five, Thassa isn't a creature.\nAt the beginning of your end step, exile up to one other target creature you control, then return that card to the battlefield under your control.\n{3}{U}: Tap another target creature.",
+      "power": "6",
+      "toughness": "5",
+      "colors": [
+        "U"
+      ],
+      "color_identity": [
+        "U"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/27b52628-de05-4ec1-9978-e998cf17bb26/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A2396299a-c031-4020-b13e-1f9bf9d64511\u0026unique=prints",
+      "collector_number": "261",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "8a62fa06-28ae-412b-973f-ba1f9eb31555",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary",
+        "fullart"
+      ],
+      "security_stamp": "oval",
+      "full_art": true,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 652,
+      "preview": {
+        "source": "aisha",
+        "source_uri": "https://twitter.com/aishawakatsuki/status/1213070515457232896",
+        "previewed_at": "2020-01-03"
+      },
+      "prices": {
+        "usd": "14.61",
+        "usd_foil": "19.29",
+        "usd_etched": null,
+        "eur": "9.63",
+        "eur_foil": "11.00",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Thassa%2C+Deep-Dwelling\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Thassa%2C+Deep-Dwelling\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Thassa%2C+Deep-Dwelling"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206758?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Thassa%2C+Deep-Dwelling\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Thassa%2C+Deep-Dwelling\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "68f3c60d-2fcb-476f-bcc6-eec5879b08ee",
+      "oracle_id": "a5690dc9-f12e-4ecc-b528-f2f83c79c3c8",
+      "multiverse_ids": [],
+      "arena_id": 73755,
+      "tcgplayer_id": 206645,
+      "cardmarket_id": 430184,
+      "name": "Erebos, Bleak-Hearted",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/68f3c60d-2fcb-476f-bcc6-eec5879b08ee",
+      "scryfall_uri": "https://scryfall.com/card/thb/262/erebos-bleak-hearted?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/6/8/68f3c60d-2fcb-476f-bcc6-eec5879b08ee.jpg?1654049947",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/8/68f3c60d-2fcb-476f-bcc6-eec5879b08ee.jpg?1654049947",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/6/8/68f3c60d-2fcb-476f-bcc6-eec5879b08ee.jpg?1654049947",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/6/8/68f3c60d-2fcb-476f-bcc6-eec5879b08ee.png?1654049947",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/6/8/68f3c60d-2fcb-476f-bcc6-eec5879b08ee.jpg?1654049947",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/6/8/68f3c60d-2fcb-476f-bcc6-eec5879b08ee.jpg?1654049947"
+      },
+      "mana_cost": "{3}{B}",
+      "cmc": 4.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to black is less than five, Erebos isn't a creature.\nWhenever another creature you control dies, you may pay 2 life. If you do, draw a card.\n{1}{B}, Sacrifice another creature: Target creature gets -2/-1 until end of turn.",
+      "power": "5",
+      "toughness": "6",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/68f3c60d-2fcb-476f-bcc6-eec5879b08ee/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Aa5690dc9-f12e-4ecc-b528-f2f83c79c3c8\u0026unique=prints",
+      "collector_number": "262",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "6af1a9a5-3dfe-4cf9-b5dd-7aee2c965140",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary",
+        "fullart"
+      ],
+      "security_stamp": "oval",
+      "full_art": true,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 1974,
+      "penny_rank": 5197,
+      "preview": {
+        "source": "/r/magicTCG",
+        "source_uri": "https://www.reddit.com/r/magicTCG/comments/ehpsyy/spoilerthb_erebos_bleakhearted_rmagictcgs_own/",
+        "previewed_at": "2019-12-30"
+      },
+      "prices": {
+        "usd": "1.92",
+        "usd_foil": "3.58",
+        "usd_etched": null,
+        "eur": "2.45",
+        "eur_foil": "2.59",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Erebos%2C+Bleak-Hearted\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Erebos%2C+Bleak-Hearted\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Erebos%2C+Bleak-Hearted"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206645?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Erebos%2C+Bleak-Hearted\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Erebos%2C+Bleak-Hearted\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0",
+      "oracle_id": "64b4e91f-83a4-4b3f-87d4-8c48907e628d",
+      "multiverse_ids": [],
+      "arena_id": 73756,
+      "tcgplayer_id": 206804,
+      "cardmarket_id": 430569,
+      "name": "Tymaret, Chosen from Death",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0",
+      "scryfall_uri": "https://scryfall.com/card/thb/263/tymaret-chosen-from-death?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/1/b/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0.jpg?1581481385",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/b/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0.jpg?1581481385",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/1/b/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0.jpg?1581481385",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/1/b/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0.png?1581481385",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/1/b/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0.jpg?1581481385",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/1/b/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0.jpg?1581481385"
+      },
+      "mana_cost": "{B}{B}",
+      "cmc": 2.0,
+      "type_line": "Legendary Enchantment Creature — Demigod",
+      "oracle_text": "Tymaret's toughness is equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\n{1}{B}: Exile up to two target cards from graveyards. You gain 1 life for each creature card exiled this way.",
+      "power": "2",
+      "toughness": "*",
+      "colors": [
+        "B"
+      ],
+      "color_identity": [
+        "B"
+      ],
+      "keywords": [],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "restricted",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/1bcb02d3-dcf4-41a6-8b9a-f8ad477faea0/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A64b4e91f-83a4-4b3f-87d4-8c48907e628d\u0026unique=prints",
+      "collector_number": "263",
+      "digital": false,
+      "rarity": "uncommon",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "6ce8e541-1bde-4500-a4e1-9a3074e2ef10",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary"
+      ],
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 4904,
+      "penny_rank": 646,
+      "preview": {
+        "source": "Numot The Nummy",
+        "source_uri": "https://www.twitch.tv/videos/530302391",
+        "previewed_at": "2020-01-03"
+      },
+      "prices": {
+        "usd": "0.05",
+        "usd_foil": "0.10",
+        "usd_etched": null,
+        "eur": "0.09",
+        "eur_foil": "0.07",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Tymaret%2C+Chosen+from+Death\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Tymaret%2C+Chosen+from+Death\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Tymaret%2C+Chosen+from+Death"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206804?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Tymaret%2C+Chosen+from+Death\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Tymaret%2C+Chosen+from+Death\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "badac9b4-bfaf-4b02-a48a-ec141393566c",
+      "oracle_id": "e23cd06d-1360-4e5d-aecc-adf902bede69",
+      "multiverse_ids": [],
+      "arena_id": 73757,
+      "tcgplayer_id": 206848,
+      "cardmarket_id": 430954,
+      "name": "Anax, Hardened in the Forge",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/badac9b4-bfaf-4b02-a48a-ec141393566c",
+      "scryfall_uri": "https://scryfall.com/card/thb/264/anax-hardened-in-the-forge?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/a/badac9b4-bfaf-4b02-a48a-ec141393566c.jpg?1581481391",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/a/badac9b4-bfaf-4b02-a48a-ec141393566c.jpg?1581481391",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/a/badac9b4-bfaf-4b02-a48a-ec141393566c.jpg?1581481391",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/a/badac9b4-bfaf-4b02-a48a-ec141393566c.png?1581481391",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/a/badac9b4-bfaf-4b02-a48a-ec141393566c.jpg?1581481391",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/a/badac9b4-bfaf-4b02-a48a-ec141393566c.jpg?1581481391"
+      },
+      "mana_cost": "{1}{R}{R}",
+      "cmc": 3.0,
+      "type_line": "Legendary Enchantment Creature — Demigod",
+      "oracle_text": "Anax's power is equal to your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)\nWhenever Anax or another nontoken creature you control dies, create a 1/1 red Satyr creature token with \"This creature can't block.\" If the creature had power 4 or greater, create two of those tokens instead.",
+      "power": "*",
+      "toughness": "3",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "keywords": [],
+      "all_parts": [
+        {
+          "object": "related_card",
+          "id": "a07285b4-77c5-4a38-8810-20d7e49593ec",
+          "component": "combo_piece",
+          "name": "Anax, Hardened in the Forge",
+          "type_line": "Legendary Enchantment Creature — Demigod",
+          "uri": "https://api.scryfall.com/cards/a07285b4-77c5-4a38-8810-20d7e49593ec"
+        },
+        {
+          "object": "related_card",
+          "id": "903e30f3-580e-4a14-989b-ae0632363407",
+          "component": "token",
+          "name": "Satyr",
+          "type_line": "Token Creature — Satyr",
+          "uri": "https://api.scryfall.com/cards/903e30f3-580e-4a14-989b-ae0632363407"
+        }
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "restricted",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/badac9b4-bfaf-4b02-a48a-ec141393566c/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Ae23cd06d-1360-4e5d-aecc-adf902bede69\u0026unique=prints",
+      "collector_number": "264",
+      "digital": false,
+      "rarity": "uncommon",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "ad9347c1-60ef-4a86-8210-142432c803b9",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary"
+      ],
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 2443,
+      "penny_rank": 648,
+      "prices": {
+        "usd": "0.15",
+        "usd_foil": "0.15",
+        "usd_etched": null,
+        "eur": "0.20",
+        "eur_foil": "0.20",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Anax%2C+Hardened+in+the+Forge\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Anax%2C+Hardened+in+the+Forge\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Anax%2C+Hardened+in+the+Forge"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206848?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Anax%2C+Hardened+in+the+Forge\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Anax%2C+Hardened+in+the+Forge\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "176596fd-fc6d-46ae-a64d-d9147430fe0f",
+      "oracle_id": "6728b9d0-d3ab-4ba3-af13-63cb83e0ed99",
+      "multiverse_ids": [],
+      "arena_id": 73758,
+      "tcgplayer_id": 206694,
+      "cardmarket_id": 430384,
+      "name": "Purphoros, Bronze-Blooded",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/176596fd-fc6d-46ae-a64d-d9147430fe0f",
+      "scryfall_uri": "https://scryfall.com/card/thb/265/purphoros-bronze-blooded?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/1/7/176596fd-fc6d-46ae-a64d-d9147430fe0f.jpg?1654049953",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/7/176596fd-fc6d-46ae-a64d-d9147430fe0f.jpg?1654049953",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/1/7/176596fd-fc6d-46ae-a64d-d9147430fe0f.jpg?1654049953",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/1/7/176596fd-fc6d-46ae-a64d-d9147430fe0f.png?1654049953",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/1/7/176596fd-fc6d-46ae-a64d-d9147430fe0f.jpg?1654049953",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/1/7/176596fd-fc6d-46ae-a64d-d9147430fe0f.jpg?1654049953"
+      },
+      "mana_cost": "{4}{R}",
+      "cmc": 5.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to red is less than five, Purphoros isn't a creature.\nOther creatures you control have haste.\n{2}{R}: You may put a red creature card or an artifact creature card from your hand onto the battlefield. Sacrifice it at the beginning of the next end step.",
+      "power": "7",
+      "toughness": "6",
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/176596fd-fc6d-46ae-a64d-d9147430fe0f/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A6728b9d0-d3ab-4ba3-af13-63cb83e0ed99\u0026unique=prints",
+      "collector_number": "265",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "78ac2b71-6991-498c-a5a6-c14cf96d5ff5",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary",
+        "fullart"
+      ],
+      "security_stamp": "oval",
+      "full_art": true,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 1973,
+      "penny_rank": 13481,
+      "preview": {
+        "source": "Wizards of the Coast",
+        "source_uri": "https://magic.wizards.com/en/articles/archive/card-image-gallery/theros-beyond-death-variants",
+        "previewed_at": "2020-01-02"
+      },
+      "prices": {
+        "usd": "1.64",
+        "usd_foil": "4.23",
+        "usd_etched": null,
+        "eur": "1.85",
+        "eur_foil": "3.25",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Purphoros%2C+Bronze-Blooded\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Purphoros%2C+Bronze-Blooded\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Purphoros%2C+Bronze-Blooded"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206694?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Purphoros%2C+Bronze-Blooded\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Purphoros%2C+Bronze-Blooded\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "2a022e36-5074-4875-ac30-aaa09b7ef421",
+      "oracle_id": "642bbdf6-9a8c-4158-83c8-d59feb49101b",
+      "multiverse_ids": [],
+      "arena_id": 73759,
+      "tcgplayer_id": 206696,
+      "cardmarket_id": 430389,
+      "name": "Nylea, Keen-Eyed",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/2a022e36-5074-4875-ac30-aaa09b7ef421",
+      "scryfall_uri": "https://scryfall.com/card/thb/266/nylea-keen-eyed?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/a/2a022e36-5074-4875-ac30-aaa09b7ef421.jpg?1654049973",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/a/2a022e36-5074-4875-ac30-aaa09b7ef421.jpg?1654049973",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/a/2a022e36-5074-4875-ac30-aaa09b7ef421.jpg?1654049973",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/a/2a022e36-5074-4875-ac30-aaa09b7ef421.png?1654049973",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/a/2a022e36-5074-4875-ac30-aaa09b7ef421.jpg?1654049973",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/a/2a022e36-5074-4875-ac30-aaa09b7ef421.jpg?1654049973"
+      },
+      "mana_cost": "{3}{G}",
+      "cmc": 4.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to green is less than five, Nylea isn't a creature.\nCreature spells you cast cost {1} less to cast.\n{2}{G}: Reveal the top card of your library. If it's a creature card, put it into your hand. Otherwise, you may put it into your graveyard.",
+      "power": "5",
+      "toughness": "6",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/2a022e36-5074-4875-ac30-aaa09b7ef421/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A642bbdf6-9a8c-4158-83c8-d59feb49101b\u0026unique=prints",
+      "collector_number": "266",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "0b8dbeae-ed22-442d-8410-1da951973aaa",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary",
+        "fullart"
+      ],
+      "security_stamp": "oval",
+      "full_art": true,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 1412,
+      "penny_rank": 13489,
+      "preview": {
+        "source": "Wizards of the Coast",
+        "source_uri": "https://magic.wizards.com/en/articles/archive/card-image-gallery/theros-beyond-death-variants",
+        "previewed_at": "2020-01-02"
+      },
+      "prices": {
+        "usd": "3.30",
+        "usd_foil": "4.95",
+        "usd_etched": null,
+        "eur": "2.33",
+        "eur_foil": "3.50",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Nylea%2C+Keen-Eyed\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Nylea%2C+Keen-Eyed\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Nylea%2C+Keen-Eyed"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206696?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Nylea%2C+Keen-Eyed\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Nylea%2C+Keen-Eyed\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "97ce113d-6757-45ac-8517-5fd531079ff9",
+      "oracle_id": "6761b077-7a89-42c9-93ab-675fe4231564",
+      "multiverse_ids": [],
+      "arena_id": 73760,
+      "tcgplayer_id": 206849,
+      "cardmarket_id": 430959,
+      "name": "Renata, Called to the Hunt",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/97ce113d-6757-45ac-8517-5fd531079ff9",
+      "scryfall_uri": "https://scryfall.com/card/thb/267/renata-called-to-the-hunt?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/7/97ce113d-6757-45ac-8517-5fd531079ff9.jpg?1581481410",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/7/97ce113d-6757-45ac-8517-5fd531079ff9.jpg?1581481410",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/7/97ce113d-6757-45ac-8517-5fd531079ff9.jpg?1581481410",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/7/97ce113d-6757-45ac-8517-5fd531079ff9.png?1581481410",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/7/97ce113d-6757-45ac-8517-5fd531079ff9.jpg?1581481410",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/7/97ce113d-6757-45ac-8517-5fd531079ff9.jpg?1581481410"
+      },
+      "mana_cost": "{2}{G}{G}",
+      "cmc": 4.0,
+      "type_line": "Legendary Enchantment Creature — Demigod",
+      "oracle_text": "Renata's power is equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)\nEach other creature you control enters the battlefield with an additional +1/+1 counter on it.",
+      "power": "*",
+      "toughness": "3",
+      "colors": [
+        "G"
+      ],
+      "color_identity": [
+        "G"
+      ],
+      "keywords": [],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "restricted",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/97ce113d-6757-45ac-8517-5fd531079ff9/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A6761b077-7a89-42c9-93ab-675fe4231564\u0026unique=prints",
+      "collector_number": "267",
+      "digital": false,
+      "rarity": "uncommon",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "5efcc443-31a3-434c-aaab-9a14a8c48e59",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary"
+      ],
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 1260,
+      "penny_rank": 4525,
+      "prices": {
+        "usd": "0.18",
+        "usd_foil": "0.23",
+        "usd_etched": null,
+        "eur": "0.11",
+        "eur_foil": "0.09",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Renata%2C+Called+to+the+Hunt\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Renata%2C+Called+to+the+Hunt\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Renata%2C+Called+to+the+Hunt"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206849?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Renata%2C+Called+to+the+Hunt\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Renata%2C+Called+to+the+Hunt\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    },
+    {
+      "object": "card",
+      "id": "4d747889-04db-4e7a-ad4c-7549514b5112",
+      "oracle_id": "e8473969-195f-41ee-a84d-463cc8c0ef02",
+      "multiverse_ids": [],
+      "arena_id": 73761,
+      "tcgplayer_id": 206459,
+      "cardmarket_id": 430394,
+      "name": "Klothys, God of Destiny",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/4d747889-04db-4e7a-ad4c-7549514b5112",
+      "scryfall_uri": "https://scryfall.com/card/thb/268/klothys-god-of-destiny?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/d/4d747889-04db-4e7a-ad4c-7549514b5112.jpg?1654049968",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d747889-04db-4e7a-ad4c-7549514b5112.jpg?1654049968",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/d/4d747889-04db-4e7a-ad4c-7549514b5112.jpg?1654049968",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d747889-04db-4e7a-ad4c-7549514b5112.png?1654049968",
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/d/4d747889-04db-4e7a-ad4c-7549514b5112.jpg?1654049968",
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/d/4d747889-04db-4e7a-ad4c-7549514b5112.jpg?1654049968"
+      },
+      "mana_cost": "{1}{R}{G}",
+      "cmc": 3.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to red and green is less than seven, Klothys isn't a creature.\nAt the beginning of your precombat main phase, exile target card from a graveyard. If it was a land card, add {R} or {G}. Otherwise, you gain 2 life and Klothys deals 2 damage to each opponent.",
+      "power": "4",
+      "toughness": "5",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "color_identity": [
+        "G",
+        "R"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "produced_mana": [
+        "G",
+        "R"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "explorer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "brawl": "not_legal",
+        "historicbrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Athb\u0026unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/4d747889-04db-4e7a-ad4c-7549514b5112/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3Ae8473969-195f-41ee-a84d-463cc8c0ef02\u0026unique=prints",
+      "collector_number": "268",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "24343437-32f3-4f4f-be5d-5ad7a4314895",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "nyxtouched",
+        "showcase",
+        "legendary",
+        "fullart"
+      ],
+      "security_stamp": "oval",
+      "full_art": true,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 2534,
+      "preview": {
+        "source": "Wizards of the Coast",
+        "source_uri": "https://magic.wizards.com/en/articles/archive/card-image-gallery/theros-beyond-death-variants",
+        "previewed_at": "2020-01-02"
+      },
+      "prices": {
+        "usd": "4.70",
+        "usd_foil": "8.59",
+        "usd_etched": null,
+        "eur": "8.58",
+        "eur_foil": "11.95",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Klothys%2C+God+of+Destiny\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Klothys%2C+God+of+Destiny\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "edhrec": "https://edhrec.com/route/?cc=Klothys%2C+God+of+Destiny"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://www.tcgplayer.com/product/206459?page=1\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Klothys%2C+God+of+Destiny\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall\u0026data%5Bsearch%5D=Klothys%2C+God+of+Destiny\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
     }
-  ],
-  "legalities": {
-    "standard": "not_legal",
-    "future": "not_legal",
-    "historic": "legal",
-    "gladiator": "legal",
-    "pioneer": "not_legal",
-    "explorer": "not_legal",
-    "modern": "not_legal",
-    "legacy": "not_legal",
-    "pauper": "not_legal",
-    "vintage": "not_legal",
-    "penny": "not_legal",
-    "commander": "not_legal",
-    "brawl": "not_legal",
-    "historicbrawl": "legal",
-    "alchemy": "legal",
-    "paupercommander": "not_legal",
-    "duel": "not_legal",
-    "oldschool": "not_legal",
-    "premodern": "not_legal"
-  },
-  "games": [
-    "arena"
-  ],
-  "reserved": false,
-  "foil": false,
-  "nonfoil": true,
-  "finishes": [
-    "nonfoil"
-  ],
-  "oversized": false,
-  "promo": false,
-  "reprint": false,
-  "variation": false,
-  "set_id": "f4e01fa7-b254-42dd-849f-69b58027a8c4",
-  "set": "znr",
-  "set_name": "Zendikar Rising",
-  "set_type": "expansion",
-  "set_uri": "https://api.scryfall.com/sets/f4e01fa7-b254-42dd-849f-69b58027a8c4",
-  "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aznr&unique=prints",
-  "scryfall_set_uri": "https://scryfall.com/sets/znr?utm_source=api",
-  "rulings_uri": "https://api.scryfall.com/cards/825d4bac-9433-4956-9126-358432c22818/rulings",
-  "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A40b82bb1-179b-4859-acf8-74b5cf019fb8&unique=prints",
-  "collector_number": "A-145",
-  "digital": true,
-  "rarity": "rare",
-  "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
-  "artist": "Kieran Yanner",
-  "artist_ids": [
-    "aa7e89ed-d294-4633-9057-ce04dacfcfa4"
-  ],
-  "illustration_id": "00c3e99f-ceab-4002-8450-f53952a6c0b7",
-  "border_color": "black",
-  "frame": "2015",
-  "security_stamp": "arena",
-  "full_art": false,
-  "textless": false,
-  "booster": false,
-  "story_spotlight": false,
-  "prices": {
-    "usd": null,
-    "usd_foil": null,
-    "usd_etched": null,
-    "eur": null,
-    "eur_foil": null,
-    "tix": null
-  },
-  "related_uris": {
-    "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=A-Kargan+Intimidator&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-    "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=A-Kargan+Intimidator&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-    "edhrec": "https://edhrec.com/route/?cc=A-Kargan+Intimidator"
-  }
+  ]
 }
