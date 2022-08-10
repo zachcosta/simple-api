@@ -1,4 +1,4 @@
-const fileLocation = "card-data/default-cards.json";
+const fileLocation = "card-data/card-output.json";
 const fs = require('fs'),
     JSONStream = require('JSONStream');
 let stream = fs.createReadStream(fileLocation, {encoding: 'utf8'}),
