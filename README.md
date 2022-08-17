@@ -9,6 +9,14 @@ An app to download, store, sort, and interact with Magic card data provided via 
 - Default routing for Node or React applications
 - Possibly Bootstrap or Init
 - NodeJS Breakpoints / Debugging
+- Hosting platforms that allow large data sets
+- Google Dev Account? [Sign up here](https://developers.google.com/)
+  - Set up basic Google Auth for security
+- Search Algorithm options
+  - Bubble Sort
+  - Merge Sort
+  - Quick Sort
+  - Red/Black Trees
 
 Currently using npm version 8.5.3
 Currently using node version 16.14.0

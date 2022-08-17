@@ -34,14 +34,13 @@ function getDownloadUrl () {
 function downloadFile(fileUrl, outputPath) {
     const writer = fs.createWriteStream(outputPath);
     console.log(fileUrl);
-    console.log(outputPath)
+    console.log(outputPath);
 
     return axios({
         method: 'GET',
         url: fileUrl,
         responseType: 'stream'
     }).then(resp => {
-        // console.log(resp);
         return new Promise((resolve, reject) => {
             resp.data.pipe(writer);
             let error = null;
