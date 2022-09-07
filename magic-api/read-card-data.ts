@@ -7,9 +7,9 @@ let returnCount = 0;
 
 stream.pipe(parser);
 
-function searchAllCards() {
-    parser.on('data', function (data) {
-        if (data.name.replace(/\s/g, "").toLowerCase().includes("dwell") && data.reprint === false) {
+function searchAllCards(query: string) {
+    parser.on('data', function (data: any) {
+        if (data.name.replace(/\s/g, "").toLowerCase().includes(query) && data.reprint === false) {
             console.log(data.name);
             console.log(`${data.set} # ${data.collector_number} - ${data.name}`);
             returnCount++
@@ -21,4 +21,8 @@ function searchAllCards() {
     })
 }
 
-searchAllCards();
+export function testFunction() {
+    console.log('This is a test')
+}
+
+searchAllCards('dwell');

@@ -31,6 +31,7 @@ function getDownloadUrl () {
         });
 }
 
+// TODO: ASK Brody - This function breaks when I add types to the arguments. Why?
 function downloadFile(fileUrl, outputPath) {
     const writer = fs.createWriteStream(outputPath);
     console.log(fileUrl);
