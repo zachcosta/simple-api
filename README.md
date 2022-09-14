@@ -28,6 +28,7 @@ An app to download, store, sort, and interact with Magic card data provided via 
    3) `ts-node` - Typescript would normally require compiling before I can run changes. TS-Node allows me to bypass this by compiling while running (??)
 3) Dependencies: Add functionality, ARE needed to actually run in production
    1) `Axios` - Enables sending HTTP requests to REST APIs. Installed to let me get latest card data from Scryfall
-   2) `Cors` - Cross-Origin Resource Sharing. Security feature, installed to limit where I accept requests from (??). Not currently in-use
-   3) `Express` - Creates a basic HTTP server, so that I can serve files to my browser
-   4) `JSONStream` - Creates a filestream that reads through JSON files efficiently. Installed to greatly reduce time spent searching through card data file
+   2) `body-parser` - Enables express to parse JSON data
+   3) `Cors` - Cross-Origin Resource Sharing. Security feature, installed to limit where I accept requests from (??). Not currently in-use
+   4) `Express` - Creates a basic HTTP server, so that I can serve files to my browser
+   5) `JSONStream` - Creates a filestream that reads through JSON files efficiently. Installed to greatly reduce time spent searching through card data file

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Search</title>
+    <script type="text/javascript" src="display-cards.ts"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="search-wrapper">
+        <label for="search">Search Cards</label>
+        <input type="search" id="search">
+    </div>
+    <button type="button" class="btn" onclick="returnResults()">Load Results</button>
+    <div class="card-results"></div>
+</div>
+<template card-result-template>
+    <div class="col-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+
+                <div>Oracle Text: </div>
+                <div>Power/Toughness: </div>
+
+                <hr>
+
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+    </div>
+</template>
+</body>
+</html>

@@ -4,25 +4,26 @@ const fs = require('fs'),
 let stream = fs.createReadStream(fileLocation, {encoding: 'utf8'}),
     parser = JSONStream.parse('*');
 let returnCount = 0;
+let cardResults: any[] = [];
 
 stream.pipe(parser);
 
-function searchAllCards(query: string) {
-    parser.on('data', function (data: any) {
-        if (data.name.replace(/\s/g, "").toLowerCase().includes(query) && data.reprint === false) {
-            console.log(data.name);
-            console.log(`${data.set} # ${data.collector_number} - ${data.name}`);
-            returnCount++
-        }
-    });
+export function searchAllCards(query: string) {
+    return new Promise((resolve) => {
+        parser.on('data', function (data: any) {
+            if (data.name.replace(/\s/g, "").toLowerCase().includes(query) && data.reprint === false) {
+                cardResults.push(data);
+            }
+        });
 
-    stream.on('end', function () {
-        console.log(returnCount);
+        stream.on('end', function () {
+            resolve(cardResults);
+        })
     })
 }
 
-export function testFunction() {
-    console.log('This is a test')
-}
+// export function testFunction() {
+//     console.log('This is a test')
+// }
 
-searchAllCards('dwell');
+// searchAllCards('dwell');
