@@ -3,26 +3,29 @@ const fs = require('fs'),
     JSONStream = require('JSONStream');
 let stream = fs.createReadStream(fileLocation, {encoding: 'utf8'}),
     parser = JSONStream.parse('*');
-let returnCount = 0;
 
 stream.pipe(parser);
 
-function searchAllCards(query: string) {
+export function searchAllCards(query: string) {
+    let results: string[] = [];
+
     parser.on('data', function (data: any) {
         if (data.name.replace(/\s/g, "").toLowerCase().includes(query) && data.reprint === false) {
-            console.log(data.name);
-            console.log(`${data.set} # ${data.collector_number} - ${data.name}`);
-            returnCount++
+            let returnText = `${data.set} # ${data.collector_number} - ${data.name}`
+            console.log(returnText);
+            results.push(returnText);
         }
     });
 
     stream.on('end', function () {
-        console.log(returnCount);
+        console.log(`We found ${results.length} cards!`);
     })
+
+    return results
 }
 
-export function testFunction() {
-    console.log('This is a test')
-}
-
-searchAllCards('dwell');
+searchAllCards('dwell')
+    .forEach((result: string) => {
+        console.log('Test inside forEach');
+        console.log(result);
+})
