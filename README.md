@@ -10,6 +10,7 @@ An app to download, store, sort, and interact with Magic card data provided via 
 - Possibly Bootstrap or Init
 - NodeJS Breakpoints / Debugging
 - Hosting platforms that allow large data sets
+- Current Tutorial: [Rest API Tutorial](https://www.youtube.com/watch?v=vjf774RKrLc) & [MongoDB Test Connection](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/)
 - Google Dev Account? [Sign up here](https://developers.google.com/)
   - Set up basic Google Auth for security
 - Search Algorithm options

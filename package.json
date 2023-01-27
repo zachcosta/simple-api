@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon book-api.js",
+    "start": "nodemon app.js",
     "read-file": "nodemon magic-api/read-card-data.mjs",
     "get-bulk": "node magic-api/scryfall-requests.ts"
   },
@@ -23,7 +23,8 @@
     "axios": "^0.27.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "JSONStream": "^1.3.5"
+    "JSONStream": "^1.3.5",
+    "mongoose": "^6.9.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19",
