@@ -12,7 +12,7 @@ An app to download, store, sort, and interact with Magic card data provided via 
 - Hosting platforms that allow large data sets
 - Current Tutorial: [Rest API Tutorial](https://www.youtube.com/watch?v=vjf774RKrLc) & [MongoDB Test Connection](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/)
 - Google Dev Account? [Sign up here](https://developers.google.com/)
-  - Set up basic Google Auth for security
+  - Set up basic Google Auth for security **Done!**
 - Search Algorithm options
   - Bubble Sort
   - Merge Sort
@@ -32,3 +32,5 @@ An app to download, store, sort, and interact with Magic card data provided via 
    2) `Cors` - Cross-Origin Resource Sharing. Security feature, installed to limit where I accept requests from (??). Not currently in-use
    3) `Express` - Creates a basic HTTP server, so that I can serve files to my browser
    4) `JSONStream` - Creates a filestream that reads through JSON files efficiently. Installed to greatly reduce time spent searching through card data file
+   5) `DotENV` - Required to use environment files
+   6) `MongoDB` and `Mongoose` - Required to connect with MongoDB database
