@@ -1,13 +1,17 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const fileLocation = "card-data/card-output.json";
-const bulkType = 'default_cards'
+const fileLocationBulk = "card-data/card-output.json";
+const fileLocationSets = "card-data/set-data.json";
+
+const bulkType = 'default_cards';
+const urlBulk = 'https://api.scryfall.com/bulk-data';
+const urlSets = 'https://api.scryfall.com/sets';
 
 async function downloadThenUpdateCardData() {
     const downloadUrl = await getDownloadUrl();
     console.log(`Url retrieved as ${downloadUrl}, downloading data`)
-    const fileDownloaded = await downloadFile(downloadUrl, fileLocation);
+    const fileDownloaded = await downloadFile(downloadUrl, fileLocationBulk);
     if (fileDownloaded) {
         console.log('Download finished. Exiting process now');
     } else {
@@ -18,7 +22,7 @@ async function downloadThenUpdateCardData() {
 
 function getDownloadUrl () {
     console.log('Getting download url for bulk data')
-    return axios.get('https://api.scryfall.com/bulk-data')
+    return axios.get(urlBulk)
         .then(function (resp) {
             return new Promise((resolve) => {
                 resp.data.data.forEach(dataSet => {
@@ -31,7 +35,6 @@ function getDownloadUrl () {
         });
 }
 
-// TODO: ASK Brody - This function breaks when I add types to the arguments. Why?
 function downloadFile(fileUrl, outputPath) {
     const writer = fs.createWriteStream(outputPath);
     console.log(fileUrl);
@@ -59,4 +62,14 @@ function downloadFile(fileUrl, outputPath) {
     })
 }
 
-downloadThenUpdateCardData();
+function getAPIData(endpoint, outputPath) {
+   return axios({
+        method: 'GET',
+        url: endpoint
+    }).then(resp => {
+       fs.writeFileSync(outputPath, JSON.stringify(resp.data))
+   })
+}
+
+// downloadThenUpdateCardData();
+getAPIData(urlSets, fileLocationSets);
