@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
+    "start": "nodemon server.js",
     "read-file": "nodemon magic-api/read-card-data.mjs",
     "get-bulk": "node magic-api/scryfall-requests.ts",
     "get-frames": "node magic-api/output-extra-data.mjs"

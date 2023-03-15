@@ -10,7 +10,7 @@ const cardsTest = JSON.parse(fs.readFileSync('./card-data/test-cards.json'));
 //STARTING SERVICES
 const app = express();
 const dbUrl = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.12mxfzp.mongodb.net/?retryWrites=true&w=majority`;
-const dbClient = new MongoClient(dbUrl);
+const db = new MongoClient(dbUrl);
 
 //IMPORT ROUTES
 const postsRoute = require('./routes/posts');
@@ -21,7 +21,7 @@ app.use('/cards', cardsRoute);
 
 // ROUTES
 app.get('/', (req,res) => {
-    res.send('We are home!');
+    res.sendFile(__dirname + '/dist/index.html');
 })
 app.get('/post-test', (req,res) => {
     res.send('Testing MongoDB POST request');
@@ -41,7 +41,7 @@ app.get('/post-test', (req,res) => {
 })
 
 //CONNECT TO DB
-dbClient.connect().then(() => {
+db.connect().then(() => {
     console.log('You have successfully connected!')
 })
 
