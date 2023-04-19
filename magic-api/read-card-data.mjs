@@ -30,4 +30,8 @@ export function searchAllCards(query) {
     })
 }
 
-searchAllCards('dwell');
+searchAllCards('dwell').then((results) => {
+    results.forEach((card) => {
+        console.log(card);
+    })
+})

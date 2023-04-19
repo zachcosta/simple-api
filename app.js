@@ -23,6 +23,9 @@ app.use('/cards', cardsRoute);
 app.get('/', (req,res) => {
     res.sendFile(__dirname + '/dist/index.html');
 })
+app.get('/search-page', (req,res) => {
+    res.sendFile(__dirname + '/dist/index.html');
+})
 app.get('/post-test', (req,res) => {
     res.send('Testing MongoDB POST request');
     axios.post(`https://data.mongodb-api.com/app/${process.env.MONGODB_API_APP_ID}/endpoint/data/v1/action/insertMany`, {
