@@ -6,6 +6,7 @@ const Card = require('./models/CardSchema')
 const app = express();
 
 // VARIABLES
+console.log(process.env.MONGODB_USERNAME)
 const dbUrl = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.12mxfzp.mongodb.net/Card-Tests?retryWrites=true&w=majority`;
 
 app.use(express.json())

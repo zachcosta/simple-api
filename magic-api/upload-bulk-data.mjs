@@ -1,38 +1,38 @@
 import Card from "../models/CardSchema.js";
+// require('dotenv').config();
 
-const fileLocation = "card-data/test-cards.json";
+// import mongoose from "mongoose";
+// const dbUrl = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.12mxfzp.mongodb.net/?retryWrites=true&w=majority`;
+const fileLocation = "card-data/card-output.json";
 import fs from 'fs';
 import JSONStream from "JSONStream"
 let stream = fs.createReadStream(fileLocation, {encoding: 'utf8'}),
     parser = JSONStream.parse('*');
 
+// const conn = await mongoose.createConnection(dbUrl).
+// asPromise();
+// conn.readyState; // 1, means Mongoose is connected
+
 stream.pipe(parser);
 
 export function iterateOnCards() {
-    let cardResults = new Promise((resolve) => {
+    return new Promise((resolve) => {
         let results = [];
 
         parser.on('data', function (data) {
-            // if (data.name.replace(/\s/g, "").toLowerCase().includes(query) && data.reprint === false) {
-            //     let returnText = `${data.set} # ${data.collector_number} - ${data.name}`
-            //     results.push(returnText);
-            // }
-            const card = async (e) => {
-                return Card.create(data);
-            }
+            results.push(data)
         });
 
         stream.on('end', function () {
-            console.log(results);
-            // resolve(results);
+            // console.log(results[0]);
+            resolve(results);
         })
-    })
-
-    // cardResults.then(function(value) {
-    //     value.forEach((result) => {
-    //         console.log(result);
-    //     })
-    // })
+    });
 }
 
-iterateOnCards();
+iterateOnCards().then(function(value) {
+    console.log(value.length)
+    // value.forEach((result) => {
+    //     console.log(result.name);
+    // })
+});
