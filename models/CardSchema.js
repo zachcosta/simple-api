@@ -8,7 +8,7 @@ const CardSchema = mongoose.Schema({
     },
     oracle_id: {
         type: String,
-        required: true
+        required: false
     },
     name: {
         type: String,
@@ -28,7 +28,7 @@ const CardSchema = mongoose.Schema({
         required: true
     },
     collector_number: {
-        type: Number,
+        type: String,
         required: true
     },
     // story_spotlight: {
