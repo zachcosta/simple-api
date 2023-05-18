@@ -63,4 +63,4 @@ const CardSchema = mongoose.Schema({
     // },
 })
 
-module.exports = mongoose.model('Cards', CardSchema);
+module.exports = CardSchema;
