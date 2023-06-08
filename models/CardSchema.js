@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const CardSchema = mongoose.Schema({
     // GENERAL DATA
-    id: {
+    _id: {
         type: String,
         required: true
     },

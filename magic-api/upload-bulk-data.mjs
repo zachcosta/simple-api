@@ -28,7 +28,9 @@ export function iterateOnCards() {
         let results = [];
 
         parser.on('data', function (data) {
-            results.push(data)
+            if(data.name === 'Reckoner Bankbuster' && data.set === "pneo") {
+                results.push(data)
+            }
         });
 
         stream.on('end', function () {
@@ -51,13 +53,16 @@ makeConnection().then(() => {
 })
 
 async function createCardObject(data) {
-    let card = await Card.create({
-        id: data.id,
-        oracle_id: data.oracle_id,
-        name: data.name,
-        set: data.set,
-        collector_number: data.collector_number
-    })
+    let card = await Card.findOneAndUpdate(
+        {_id: data.id},
+        {
+            _id: data.id,
+            oracle_id: data.oracle_id,
+            name: data.name,
+            set: data.set,
+            collector_number: data.collector_number
+        },
+        {upsert: true, new: true})
     console.log(card);
     return card;
 }
