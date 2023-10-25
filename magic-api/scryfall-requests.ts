@@ -71,5 +71,5 @@ function getAPIData(endpoint, outputPath) {
    })
 }
 
-// downloadThenUpdateCardData();
-getAPIData(urlSets, fileLocationSets);
+downloadThenUpdateCardData();
+// getAPIData(urlSets, fileLocationSets);

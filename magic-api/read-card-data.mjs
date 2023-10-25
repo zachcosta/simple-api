@@ -10,6 +10,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 let totalCards = 0;
+let rixCount = 0;
 
 stream.pipe(parser);
 
@@ -18,6 +19,10 @@ export function searchAllCards(query) {
         let results = [];
 
         parser.on('data', function (data) {
+            if (data.set === "rix") {
+                rixCount++
+                console.log(`${data.set} # ${data.collector_number} - ${data.name}`)
+            }
             if (data.name.replace(/\s/g, "").toLowerCase().includes(query) && data.reprint === false) {
                 let returnText = `${data.set} # ${data.collector_number} - ${data.name}`
                 results.push(returnText);
@@ -32,6 +37,7 @@ export function searchAllCards(query) {
     })
 
     cardResults.then(function(value) {
+        console.log(`Rivals of Ixalan includes ${rixCount} cards`)
         value.forEach((result) => {
             console.log(result);
         })
