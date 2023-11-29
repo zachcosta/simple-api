@@ -34,3 +34,8 @@ An app to download, store, sort, and interact with Magic card data provided via 
    4) `JSONStream` - Creates a filestream that reads through JSON files efficiently. Installed to greatly reduce time spent searching through card data file
    5) `DotENV` - Required to use environment files
    6) `MongoDB` and `Mongoose` - Required to connect with MongoDB database
+
+## Next Steps
+1) Read through info provided by Brody
+2) Investigate implementing [SQLite](https://www.youtube.com/watch?v=ZRYn6tgnEgM) locally to begin testing with relational schemas
+3) Investigate speeding up bulk update command [using this guide](https://stackoverflow.com/questions/65242537/how-can-i-increase-mongoose-mongodb-create-and-update-performance-for-a-large-nu)

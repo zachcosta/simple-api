@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "read-file": "nodemon magic-api/read-card-data.mjs",
+    "read-file": "nodemon magic-api/deprecated/read-card-data.mjs",
     "get-bulk": "node magic-api/scryfall-requests.ts",
     "get-frames": "node magic-api/output-extra-data.mjs",
-    "iterate": "node magic-api/upload-bulk-data.mjs",
+    "upload": "node magic-api/upload-bulk-data.mjs",
+    "query": "node magic-api/query-card-data.mjs",
     "sync": "node synctesting.js"
   },
   "repository": {

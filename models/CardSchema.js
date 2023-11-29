@@ -39,6 +39,10 @@ const CardSchema = mongoose.Schema({
         type: [String],
         required: true
     },
+    booster: {
+        type: Boolean,
+        required: true
+    },
     // // FRAME DATA
     layout: {
         type: String,
@@ -50,7 +54,7 @@ const CardSchema = mongoose.Schema({
         required: true
     },
     frame: {
-        type: String,
+        type: [String],
         required: true
     },
     frame_effects: {
@@ -59,6 +63,23 @@ const CardSchema = mongoose.Schema({
     },
     promo_types: {
         type: [String],
+        required: true
+    },
+    // PRINT DATA
+    reprint: {
+        type: Boolean,
+        required: true
+    },
+    promo: {
+        type: Boolean,
+        required: true
+    },
+    variant: {
+        type: Boolean,
+        required: true
+    },
+    reserved: {
+        type: Boolean,
         required: true
     },
 })

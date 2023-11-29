@@ -19,10 +19,6 @@ export function searchAllCards(query) {
         let results = [];
 
         parser.on('data', function (data) {
-            if (data.set === "rix") {
-                rixCount++
-                console.log(`${data.set} # ${data.collector_number} - ${data.name}`)
-            }
             if (data.name.replace(/\s/g, "").toLowerCase().includes(query) && data.reprint === false) {
                 let returnText = `${data.set} # ${data.collector_number} - ${data.name}`
                 results.push(returnText);
