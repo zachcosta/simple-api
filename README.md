@@ -18,6 +18,8 @@ An app to download, store, sort, and interact with Magic card data provided via 
   - Merge Sort
   - Quick Sort
   - Red/Black Trees
+- Import vs Require
+- CommonJS vs ESM
 
 ### Current Dependencies
 1) Runtime Level: These are needed to even start the scripts and develop the code
