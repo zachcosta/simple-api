@@ -1,3 +1,6 @@
+require('mongoose');
+const Card = require('../models/CardSchema.js')
+
 const people = [
     { name: 'adri'},
     { name: 'becky'},
@@ -33,21 +36,17 @@ const searchButton = document.getElementById('search-button')
 
 const resultsList = document.getElementById('list')
 
-// searchInput.addEventListener("input", (e) => {
-//     let value = e.target.value;
-//
-//     if (value && value.trim().length > 0) {
-//         value = value.trim().toLowerCase();
-//         console.log(value)
-//
-//         renderList(people.filter(person => {
-//             return person.name.includes(value)
-//         }))
-//     } else {
-//         clearList();
-//         console.log(value);
-//     }
-// })
+searchInput.addEventListener("input", (e) => {
+    let value = e.target.value;
+
+    if (value && value.trim().length > 0) {
+        value = value.trim().toLowerCase();
+        console.log(value)
+    } else {
+        clearList();
+        console.log(value);
+    }
+})
 
 searchButton.addEventListener("click", () => {
     let value = searchInput.value;
@@ -55,6 +54,8 @@ searchButton.addEventListener("click", () => {
     if (value && value.trim().length > 0) {
         value = value.trim().toLowerCase();
         console.log(value)
+
+        submitSearchQuery(value);
 
         renderList(people.filter(person => {
             return person.name.includes(value)
@@ -98,4 +99,13 @@ function noResults() {
     errorMessage.classList.add('error-message');
     errorMessage.appendChild(text);
     resultsList.appendChild(errorMessage);
+}
+
+function submitSearchQuery(query) {
+    Card.find(query).then(cards => {
+        console.log(`Found ${cards.length} cards containing "dwell"`)
+        cards.forEach(card => {
+            console.log(`"${card.name}" (${card.set} # ${card.collector_number})`);
+        })
+    })
 }
