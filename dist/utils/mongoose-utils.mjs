@@ -34,8 +34,8 @@ export function iterateOnObjects(fileLocation) {
     });
 }
 
-export async function createCardObject(data, Card) {
-    let card = await Card.findOneAndUpdate(
+export async function createCardObject(data, Collection) {
+    let card = await Collection.findOneAndUpdate(
         {_id: data.id},
         {
             _id: data.id,
@@ -59,7 +59,12 @@ export async function createCardObject(data, Card) {
     return card;
 }
 
-export async function queryCards(query, Card) {
+export async function queryCards(query, Collection) {
     console.log('Querying DB for cards, please be patient...');
-    return await Card.find(query);
+    return await Collection.find(query);
+}
+
+export async function getUniqueValues(field, Collection) {
+    console.log(`Finding all unique values for the ${field} field`);
+    return await Collection.distinct(field);
 }

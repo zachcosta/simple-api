@@ -11,7 +11,8 @@
     "get-frames": "node magic-api/output-extra-data.mjs",
     "upload": "node magic-api/upload-bulk-data.mjs",
     "query": "node magic-api/query-card-data.mjs",
-    "sync": "node synctesting.js"
+    "sync": "node synctesting.js",
+    "easy-query": "node magic-api/easy-queries.mjs"
   },
   "repository": {
     "type": "git",
