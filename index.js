@@ -2,15 +2,15 @@
 require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
-const Card = require('./models/CardSchema')
+const Card = require('./dist/models/CardSchema')
 const app = express();
 
 // VARIABLES
 console.log(process.env.MONGODB_USERNAME)
-const dbUrl = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.12mxfzp.mongodb.net/Card-Tests?retryWrites=true&w=majority`;
+const dbUrl = process.env.MONGODB_URL;
 
 app.use(express.json())
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 async function connect() {
     try {

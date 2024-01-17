@@ -2,10 +2,10 @@
   "name": "magic-api",
   "version": "1.0.0",
   "description": "A simple test API for using scryfall data",
-  "main": "public/index.js",
+  "main": "src/search-page.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
+    "start": "nodemon index.js",
     "read-file": "nodemon magic-api/deprecated/read-card-data.mjs",
     "get-bulk": "node magic-api/scryfall-requests.ts",
     "get-frames": "node magic-api/output-extra-data.mjs",
@@ -16,6 +16,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zachcosta/magic-api.git"
+  },
+  "imports": {
+    "#models/*": "./dist/models/*",
+    "#utils/*": "./dist/utils/*"
   },
   "author": "Zach Costa",
   "license": "ISC",

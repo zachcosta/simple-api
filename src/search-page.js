@@ -1,5 +1,5 @@
 require('mongoose');
-const Card = require('../models/CardSchema.js')
+const Card = require('../dist/models/CardSchema.js')
 
 const people = [
     { name: 'adri'},

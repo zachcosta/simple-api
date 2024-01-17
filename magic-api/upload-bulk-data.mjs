@@ -4,9 +4,9 @@ dotenv.config();
 const t0 = performance.now();
 
 import mongoose from "mongoose";
-const dbUrl = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.12mxfzp.mongodb.net/magic-cards?retryWrites=true&w=majority`;
+const dbUrl = process.env.MONGODB_URL;
 const fileLocation = "card-data/card-output.json";
-import {createCardObject, iterateOnObjects, makeConnection} from "./utils/mongoose-utils.mjs";
+import {createCardObject, iterateOnObjects, makeConnection} from "#utils/mongoose-utils.mjs";
 
 makeConnection(dbUrl).then((Card) => {
     console.log('Opening filestream. Please be patient!')
