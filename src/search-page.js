@@ -1,5 +1,6 @@
-require('mongoose');
-const Card = require('../dist/models/CardSchema.js')
+// import * as mongoose from "mongoose";
+import * as Card from '/models/CardSchema.js'
+// const Card = require('../models/CardSchema.js')
 
 const people = [
     { name: 'adri'},

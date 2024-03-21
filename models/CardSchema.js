@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+import * as mongoose from 'mongoose';
 
-const CardSchema = mongoose.Schema({
+export const CardSchema = mongoose.Schema({
     // GENERAL DATA
     _id: {
         type: String,
@@ -84,4 +84,4 @@ const CardSchema = mongoose.Schema({
     },
 })
 
-module.exports = CardSchema;
+// module.exports = CardSchema;

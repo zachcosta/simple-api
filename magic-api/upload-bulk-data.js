@@ -6,7 +6,7 @@ const t0 = performance.now();
 import mongoose from "mongoose";
 const dbUrl = process.env.MONGODB_URL;
 const fileLocation = "card-data/card-output.json";
-import {createCardObject, iterateOnObjects, makeConnection} from "#utils/mongoose-utils.mjs";
+import {createCardObject, iterateOnObjects, makeConnection} from "../utils/mongoose-utils.js";
 
 makeConnection(dbUrl).then((Card) => {
     console.log('Opening filestream. Please be patient!')

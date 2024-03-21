@@ -1,8 +1,15 @@
 // IMPORTS
-require('dotenv').config();
-const express = require("express");
-const mongoose = require("mongoose");
-const Card = require('./dist/models/CardSchema')
+import dotenv from "dotenv";
+import express from "express";
+import * as mongoose from 'mongoose';
+import * as Card from './models/CardSchema.js'
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+dotenv.config();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename) + '/';
 const app = express();
 
 // VARIABLES
@@ -26,7 +33,15 @@ connect().then(() => {
 });
 
 app.get('/', (req,res) => {
-    res.sendFile(__dirname + '/dist/index.html');
+    res.sendFile(__dirname + 'index.html');
+})
+
+app.get('/src/search-page.js', (req,res) => {
+    res.sendFile(__dirname + 'src/search-page.js');
+})
+
+app.get('/models/CardSchema.mjs', (req,res) => {
+    res.sendFile(__dirname + 'models/CardSchema.js');
 })
 
 app.get('/cards/search', async (req, res) => {

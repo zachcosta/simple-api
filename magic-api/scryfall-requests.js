@@ -1,5 +1,7 @@
-const axios = require('axios');
-const fs = require('fs');
+// const axios = require('axios');
+import axios from 'axios'
+import fs from 'fs'
+// const fs = require('fs');
 
 const fileLocationBulk = "card-data/card-output.json";
 const fileLocationSets = "card-data/set-data.json";

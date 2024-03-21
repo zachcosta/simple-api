@@ -2,7 +2,7 @@ import dotenv from 'dotenv'
 dotenv.config();
 
 const dbUrl = process.env.MONGODB_URL;
-import {makeConnection, getUniqueValues} from "#utils/mongoose-utils.mjs";
+import {makeConnection, getUniqueValues} from "../utils/mongoose-utils.js";
 
 makeConnection(dbUrl).then((CardCollection) => {
     console.log('Opening filestream. Please be patient!')

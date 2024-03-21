@@ -4,11 +4,7 @@ import JSONStream from "JSONStream";
 let stream = fs.createReadStream(fileLocation, {encoding: 'utf8'}),
     parser = JSONStream.parse('*');
 
-import * as readline from 'node:readline';
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+const searchQuery = 'dwell';
 let totalCards = 0;
 let rixCount = 0;
 
@@ -42,7 +38,5 @@ export function searchAllCards(query) {
     })
 }
 
-rl.question("What term would you like to search for?  ", (searchQuery) => {
-    console.log(`Sure thing! Searching for ${searchQuery} now. Hang tight, this can take a few seconds...`);
-    searchAllCards(searchQuery);
-});
+console.log(`Sure thing! Searching for ${searchQuery} now. Hang tight, this can take a few seconds...`);
+searchAllCards(searchQuery);

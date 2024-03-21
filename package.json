@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "A simple test API for using scryfall data",
   "main": "src/search-page.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "read-file": "nodemon magic-api/deprecated/read-card-data.mjs",
-    "get-bulk": "node magic-api/scryfall-requests.ts",
-    "get-frames": "node magic-api/output-extra-data.mjs",
-    "upload": "node magic-api/upload-bulk-data.mjs",
-    "query": "node magic-api/query-card-data.mjs",
+    "read-file": "nodemon magic-api/deprecated/read-card-data.js",
+    "get-bulk": "node magic-api/scryfall-requests.js",
+    "get-frames": "node magic-api/output-extra-data.js",
+    "upload": "node magic-api/upload-bulk-data.js",
+    "query": "node magic-api/query-card-data.js",
     "sync": "node synctesting.js",
-    "easy-query": "node magic-api/easy-queries.mjs"
+    "easy-query": "node magic-api/easy-queries.js"
   },
   "repository": {
     "type": "git",
