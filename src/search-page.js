@@ -1,5 +1,5 @@
 // import * as mongoose from "mongoose";
-import * as Card from '/models/CardSchema.js'
+import {CardSchema} from "../models/CardSchema.js";
 // const Card = require('../models/CardSchema.js')
 
 const people = [
@@ -103,7 +103,7 @@ function noResults() {
 }
 
 function submitSearchQuery(query) {
-    Card.find(query).then(cards => {
+    CardSchema.find(query).then(cards => {
         console.log(`Found ${cards.length} cards containing "dwell"`)
         cards.forEach(card => {
             console.log(`"${card.name}" (${card.set} # ${card.collector_number})`);
