@@ -1,6 +1,12 @@
 // import * as mongoose from "mongoose";
 import {CardSchema} from "../models/CardSchema.js";
+import {getConnection, queryCards} from "../utils/mongoose-utils";
 // const Card = require('../models/CardSchema.js')
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    alert('Hey')
+});
 
 const people = [
     { name: 'adri'},
@@ -51,6 +57,8 @@ searchInput.addEventListener("input", (e) => {
 
 searchButton.addEventListener("click", () => {
     let value = searchInput.value;
+
+    alert("Test!")
 
     if (value && value.trim().length > 0) {
         value = value.trim().toLowerCase();
@@ -103,10 +111,15 @@ function noResults() {
 }
 
 function submitSearchQuery(query) {
-    CardSchema.find(query).then(cards => {
-        console.log(`Found ${cards.length} cards containing "dwell"`)
-        cards.forEach(card => {
-            console.log(`"${card.name}" (${card.set} # ${card.collector_number})`);
+    const regexString = new RegExp(`/`+query+'/i')
+    getConnection().then((Card) => {
+        const searchQuery = { name: regexString, reprint: false, booster: true }
+        queryCards(searchQuery, Card).then(cards => {
+            console.log(`Found ${cards.length} cards containing "dwell"`)
+            cards.forEach(card => {
+                console.log(`"${card.name}" (${card.set} # ${card.collector_number})`);
+            })
         })
     })
+
 }

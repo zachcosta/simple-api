@@ -3,11 +3,17 @@ import {CardSchema} from "../models/CardSchema.js";
 import fs from "fs";
 import JSONStream from "JSONStream";
 
+let dbConnection;
+
 export async function makeConnection(dbUrl) {
     console.log('Connecting to DB now...')
     const conn = await mongoose.connect(dbUrl);
     console.log('Successfully connected!')
-    return conn.model('all_cards', CardSchema);
+    dbConnection = conn.model('all_cards', CardSchema);
+}
+
+export async function getConnection() {
+    return dbConnection;
 }
 
 export function iterateOnObjects(fileLocation) {

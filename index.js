@@ -1,10 +1,9 @@
 // IMPORTS
 import dotenv from "dotenv";
 import express from "express";
-import * as mongoose from 'mongoose';
-import * as Card from './models/CardSchema.js'
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import {getConnection, makeConnection, queryCards} from "./utils/mongoose-utils.js";
 
 dotenv.config();
 
@@ -16,20 +15,19 @@ const app = express();
 console.log(process.env.MONGODB_USERNAME)
 const dbUrl = process.env.MONGODB_URL;
 
-app.use(express.json())
-// app.use(express.static('public'));
+app.use(express.json());
 
-async function connect() {
-    try {
-        await mongoose.connect(dbUrl);
-        console.log("You have successfully connected!");
-    } catch (error) {
-        console.error(error);
-    }
-}
+await makeConnection(dbUrl);
 
-connect().then(() => {
-    console.log("Awaiting database queries...")
+getConnection().then((Card) => {
+    console.log("Awaiting database queries...");
+    const query = { name: /dwell/i, reprint: false, booster: true }
+    queryCards(query, Card).then(cards => {
+        console.log(`Found ${cards.length} cards containing "dwell"`)
+        cards.forEach(card => {
+            console.log(`"${card.name}" (${card.set} # ${card.collector_number})`);
+        })
+    })
 });
 
 app.get('/', (req,res) => {
@@ -40,8 +38,12 @@ app.get('/src/search-page.js', (req,res) => {
     res.sendFile(__dirname + 'src/search-page.js');
 })
 
-app.get('/models/CardSchema.mjs', (req,res) => {
+app.get('/models/CardSchema.js', (req,res) => {
     res.sendFile(__dirname + 'models/CardSchema.js');
+})
+
+app.get('/utils/mongoose-utils', (req,res) => {
+    res.sendFile(__dirname + 'utils/mongoose-utils.js');
 })
 
 app.get('/cards/search', async (req, res) => {
