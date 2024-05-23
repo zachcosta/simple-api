@@ -13,7 +13,9 @@
     "upload": "node magic-api/upload-bulk-data.js",
     "query": "node magic-api/query-card-data.js",
     "sync": "node synctesting.js",
-    "easy-query": "node magic-api/easy-queries.js"
+    "easy-query": "node magic-api/easy-queries.js",
+    "build-docker": "docker build -t funapp .",
+    "run-docker": "docker run -it --rm -v $(pwd):/app -w /app funapp:latest bash"
   },
   "repository": {
     "type": "git",
