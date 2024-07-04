@@ -14,8 +14,9 @@
     "query": "node magic-api/query-card-data.js",
     "sync": "node synctesting.js",
     "easy-query": "node magic-api/easy-queries.js",
-    "build-docker": "docker build -t funapp .",
-    "run-docker": "docker run -it --rm -v $(pwd):/app -w /app funapp:latest bash"
+    "build-docker": "docker build -t magic-api:local-build .",
+    "run-docker": "docker run -it --rm -v /d/Projects/simple-api:/app -w /app magic-api:local-build bash",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
