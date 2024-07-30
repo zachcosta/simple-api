@@ -5,6 +5,10 @@ An app to download, store, sort, and interact with Magic card data provided via 
 - `npm run get-bulk`: Will download the "default-cards" set of bulk data from Scryfall, then save it to `card-data/card-output.json`
 - `npm run read-file`: Will iterate through `card-data/card-output.json`, attempting to return all cards with the word "Dwell" in their name. (Should currently return 11 cards)
 
+## Questions for Brody
+- Hitting a memory error when running large queries in Docker image
+- Can't access localhost from inside the Docker image
+
 ## Things to look up
 - Default routing for Node or React applications
 - Possibly Bootstrap or Init

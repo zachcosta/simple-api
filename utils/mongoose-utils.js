@@ -40,8 +40,8 @@ export function iterateOnObjects(fileLocation) {
     });
 }
 
-export async function createCardObject(data, Collection) {
-    let card = await Collection.findOneAndUpdate(
+export async function createCardObject(data, CardSchema) {
+    let card = await CardSchema.findOneAndUpdate(
         {_id: data.id},
         {
             _id: data.id,
@@ -60,8 +60,7 @@ export async function createCardObject(data, Collection) {
             promo_types: data.promo_types,
             booster: data.booster
         },
-        {upsert: true, new: true})
-    console.log(`Uploading "${card.name}" (${card.set} # ${card.collector_number})`);
+        {upsert: true, new: true});
     return card;
 }
 

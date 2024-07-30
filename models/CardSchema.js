@@ -82,6 +82,4 @@ export const CardSchema = mongoose.Schema({
         type: Boolean,
         required: true
     },
-})
-
-// module.exports = CardSchema;
+});

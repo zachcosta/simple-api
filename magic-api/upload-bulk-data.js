@@ -4,17 +4,20 @@ dotenv.config();
 const t0 = performance.now();
 
 import mongoose from "mongoose";
+import { CardSchema } from '../models/CardSchema.js';
 const dbUrl = process.env.MONGODB_URL;
 const fileLocation = "card-data/card-output.json";
 import {createCardObject, iterateOnObjects, makeConnection} from "../utils/mongoose-utils.js";
 
-makeConnection(dbUrl).then((Card) => {
+makeConnection(dbUrl).then(() => {
     console.log('Opening filestream. Please be patient!')
+    const Card = mongoose.model('Card', CardSchema)
     iterateOnObjects(fileLocation).then(function(returnedPromise) {
         let results = returnedPromise[0],
             t1 = returnedPromise[1];
         console.log(`${results.length} cards found! Beginning upload now.`)
         let i = 0;
+        console.log(`Starting with "${results[0].name} | ${results[0].set} ${results[0].collector_number}"`)
         results.forEach((result) => {
             createCardObject(result, Card).then(() => {
                 i++
