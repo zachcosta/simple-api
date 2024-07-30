@@ -8,6 +8,7 @@ An app to download, store, sort, and interact with Magic card data provided via 
 ## Questions for Brody
 - Hitting a memory error when running large queries in Docker image
 - Can't access localhost from inside the Docker image
+- How to structure my filesystem
 
 ## Things to look up
 - Default routing for Node or React applications
