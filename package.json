@@ -15,7 +15,7 @@
     "sync": "node synctesting.js",
     "easy-query": "node magic-api/easy-queries.js",
     "build-docker": "docker build -t magic-api:local-build .",
-    "run-docker": "docker run -it --rm -v /d/Projects/simple-api:/app -w /app magic-api:local-build bash",
+    "run-docker": "docker run -it -p 3000:3000/tcp --rm -v /d/Projects/simple-api:/app -w /app magic-api:local-build bash",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
