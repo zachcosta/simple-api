@@ -2,9 +2,11 @@ import dotenv from 'dotenv'
 dotenv.config();
 
 const dbUrl = process.env.MONGODB_URL;
-import {makeConnection, getUniqueValues} from "../utils/mongoose-utils.js";
+import {makeConnection, getUniqueValues, getConnection} from "../src/lib/utils/mongoose-utils.js";
 
-makeConnection(dbUrl).then((CardCollection) => {
+await makeConnection(dbUrl);
+
+getConnection().then((CardCollection) => {
     console.log('Opening filestream. Please be patient!')
     const field = 'promo_types'
     getUniqueValues(field, CardCollection).then(uniqueValues => {

@@ -4,10 +4,10 @@ dotenv.config();
 const t0 = performance.now();
 
 import mongoose from "mongoose";
-import { CardSchema } from '../models/CardSchema.js';
+import { CardSchema } from '../src/lib/models/CardSchema.js';
 const dbUrl = process.env.MONGODB_URL;
 const fileLocation = "card-data/card-output.json";
-import {createCardObject, iterateOnObjects, makeConnection} from "../utils/mongoose-utils.js";
+import {createCardObject, iterateOnObjects, makeConnection} from "../src/lib/utils/mongoose-utils.js";
 
 makeConnection(dbUrl).then(() => {
     console.log('Opening filestream. Please be patient!')

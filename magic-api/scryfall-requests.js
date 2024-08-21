@@ -10,21 +10,20 @@ const bulkType = 'default_cards';
 const urlBulk = 'https://api.scryfall.com/bulk-data';
 const urlSets = 'https://api.scryfall.com/sets';
 
-async function downloadThenUpdateCardData() {
-    const downloadUrl = await getDownloadUrl();
+async function downloadThenUpdateCardData(urlToGet, fileToFill) {
+    const downloadUrl = await getDownloadUrl(urlToGet);
     console.log(`Url retrieved as ${downloadUrl}, downloading data`)
-    const fileDownloaded = await downloadFile(downloadUrl, fileLocationBulk);
+    const fileDownloaded = await downloadFile(downloadUrl, fileToFill);
     if (fileDownloaded) {
         console.log('Download finished. Exiting process now');
     } else {
         console.log('There was an error downloading the file.')
     }
-    process.exit();
 }
 
-function getDownloadUrl () {
+function getDownloadUrl (urlToGet) {
     console.log('Getting download url for bulk data')
-    return axios.get(urlBulk)
+    return axios.get(urlToGet)
         .then(function (resp) {
             return new Promise((resolve) => {
                 resp.data.data.forEach(dataSet => {
@@ -73,5 +72,9 @@ function getAPIData(endpoint, outputPath) {
    })
 }
 
-downloadThenUpdateCardData();
+await downloadThenUpdateCardData(urlBulk, fileLocationBulk);
+await downloadThenUpdateCardData(urlSets, fileLocationSets);
+
+process.exit();
+
 // getAPIData(urlSets, fileLocationSets);
