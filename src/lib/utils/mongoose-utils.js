@@ -9,7 +9,7 @@ export async function makeConnection(dbUrl) {
     console.log('Connecting to DB now...')
     const conn = await mongoose.connect(dbUrl);
     console.log('Successfully connected!')
-    dbConnection = conn.model('all_cards', CardSchema);
+    dbConnection = conn.model('cards', CardSchema);
 }
 
 export async function getConnection() {

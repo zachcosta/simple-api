@@ -12,7 +12,6 @@
     "get-frames": "node magic-api/output-extra-data.js",
     "upload": "node magic-api/upload-bulk-data.js",
     "query": "node src/query-card-data.js",
-    "sync": "node synctesting.js",
     "easy-query": "node magic-api/easy-queries.js",
     "build-docker": "docker build -t magic-api:local-build .",
     "run-docker": "docker run -it -p 3000:3000/tcp --rm -v /d/Projects/simple-api:/app -w /app magic-api:local-build bash",
