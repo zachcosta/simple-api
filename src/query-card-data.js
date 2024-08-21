@@ -2,7 +2,7 @@ import dotenv from 'dotenv'
 dotenv.config();
 
 const dbUrl = process.env.MONGODB_URL;
-import {getConnection, makeConnection, queryCards} from "../utils/mongoose-utils.js";
+import {getConnection, makeConnection, queryCards} from "./lib/utils/mongoose-utils.js";
 
 await makeConnection(dbUrl);
 

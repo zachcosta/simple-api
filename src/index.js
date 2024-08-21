@@ -1,9 +1,10 @@
 // IMPORTS
 import dotenv from "dotenv";
 import express from "express";
+import _ from "lodash";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import {getConnection, makeConnection, queryCards} from "./utils/mongoose-utils.js";
+import {getConnection, makeConnection, queryCards} from "./lib/utils/mongoose-utils.js";
 
 dotenv.config();
 
@@ -31,7 +32,7 @@ getConnection().then((Card) => {
 });
 
 app.get('/', (req,res) => {
-    res.sendFile(__dirname + 'index.html');
+    res.sendFile(__dirname + '../dist/index.html');
 })
 
 app.get('/src/search-page.js', (req,res) => {

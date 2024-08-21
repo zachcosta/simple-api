@@ -6,12 +6,12 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
+    "start": "nodemon src/index.js",
     "read-file": "nodemon magic-api/deprecated/read-card-data.js",
     "get-bulk": "node magic-api/scryfall-requests.js",
     "get-frames": "node magic-api/output-extra-data.js",
     "upload": "node magic-api/upload-bulk-data.js",
-    "query": "node magic-api/query-card-data.js",
+    "query": "node src/query-card-data.js",
     "sync": "node synctesting.js",
     "easy-query": "node magic-api/easy-queries.js",
     "build-docker": "docker build -t magic-api:local-build .",
@@ -38,6 +38,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "JSONStream": "^1.3.5",
+    "lodash": "^4.17.21",
     "mongodb": "^5.0.0",
     "mongoose": "^6.9.0"
   },
