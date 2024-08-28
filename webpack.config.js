@@ -1,31 +1,19 @@
-const path = require('path');
+import path from 'path';
 
-module.exports = {
+const module = {
   mode: 'development',
   entry: './app.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(".", 'dist'),
     filename: 'bundle.js',
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-          },
-        },
-      },
-    ],
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'),
+      directory: path.join(".", 'dist'),
     },
     compress: true,
     port: 9000,
   },
 };
+
+export default module

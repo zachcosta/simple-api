@@ -2,6 +2,8 @@ card-data/card-output.json
 card-data/set-data.json
 node_modules
 .env
+.npm
+dist/bundle.js
 
 # amplify
 .amplify
