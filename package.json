@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.ts",
+    "start": "nodemon src/index.js",
     "read-file": "nodemon magic-api/deprecated/read-card-data.js",
     "get-bulk": "node magic-api/scryfall-requests.js",
     "get-frames": "node magic-api/output-extra-data.js",
@@ -15,7 +15,7 @@
     "easy-query": "node magic-api/easy-queries.js",
     "build-docker": "docker build -t magic-api:local-build .",
     "run-docker": "docker run -it -p 3000:3000/tcp --rm -v /d/Projects/simple-api:/app -w /app magic-api:local-build bash",
-    "build": "node --loader ts-node/esm node_modules/webpack-cli/bin/cli.js --config webpack.config.ts"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -45,14 +45,12 @@
   "devDependencies": {
     "@aws-amplify/backend": "^1.1.1",
     "@aws-amplify/backend-cli": "^1.2.4",
-    "@types/node": "^22.5.1",
-    "@types/webpack": "^5.28.5",
     "aws-cdk": "^2.153.0",
     "aws-cdk-lib": "^2.153.0",
     "constructs": "^10.3.0",
     "esbuild": "^0.23.1",
     "nodemon": "^2.0.19",
-    "ts-node": "^10.9.2",
+    "ts-node": "^10.9.1",
     "tsx": "^4.17.0",
     "typescript": "^5.5.4",
     "webpack": "^5.91.0",
