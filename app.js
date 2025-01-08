@@ -27,6 +27,7 @@ app.get('/search-page', (req,res) => {
     res.sendFile(__dirname + '/dist/index.html');
 })
 app.get('/post-test', (req,res) => {
+    console.log("You've accessed the post test page!")
     res.send('Testing MongoDB POST request');
     axios.post(`https://data.mongodb-api.com/app/${process.env.MONGODB_API_APP_ID}/endpoint/data/v1/action/insertMany`, {
         'dataSource': process.env.MONGODB_CLUSTER_NAME,
