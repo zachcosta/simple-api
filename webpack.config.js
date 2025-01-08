@@ -17,24 +17,24 @@ const module = {
     compress: true,
     port: 9000,
   },
-  resolve: {
-    fallback: {
-      "fs": false,
-      "tls": false,
-      "net": false,
-      "path": false,
-      "zlib": false,
-      "http": false,
-      "https": false,
-      "stream": false,
-      "url": false,
-      "util": false,
-      "querystring": false,
-      "crypto": false,
-      "os": false,
-      "async_hooks": false
-    } 
-  }
+  // resolve: {
+  //   fallback: {
+  //     "fs": false,
+  //     "tls": false,
+  //     "net": false,
+  //     "path": false,
+  //     "zlib": false,
+  //     "http": false,
+  //     "https": false,
+  //     "stream": false,
+  //     "url": false,
+  //     "util": false,
+  //     "querystring": false,
+  //     "crypto": false,
+  //     "os": false,
+  //     "async_hooks": false
+  //   } 
+  // }
 };
 
 export default module
