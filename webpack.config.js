@@ -7,12 +7,12 @@ const module = {
     htmlindex: './src/index.js'
   },
   output: {
-    path: path.resolve("__dirname", 'dist'),
+    path: path.resolve(".", 'dist'),
     filename: '[name].bundle.js',
   },
   devServer: {
     static: {
-      directory: path.join("__dirname", 'dist'),
+      directory: path.join(".", 'dist'),
     },
     compress: true,
     port: 9000,
