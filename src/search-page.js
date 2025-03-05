@@ -1,6 +1,6 @@
 // import * as mongoose from "mongoose";
 import {CardSchema} from "./lib/models/CardSchema.js";
-import {getConnection, queryCards} from "./lib/utils/mongoose-utils";
+import {getConnection, queryCards} from "./lib/utils/mongoose-utils.js";
 // const Card = require('../models/CardSchema.js')
 
 
