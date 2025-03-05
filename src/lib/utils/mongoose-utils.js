@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from mongoose;
 import {CardSchema} from "../models/CardSchema.js";
 import fs from "fs";
 import JSONStream from "JSONStream";
