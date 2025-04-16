@@ -1,14 +1,56 @@
 import path from 'path';
+import { glob } from 'glob';
 
-const module = {
+// Helper function to generate entries for models and utils
+const generateEntries = async (pattern) => {
+  const entries = {};
+  const files = await glob(pattern);
+  files.forEach(file => {
+    const entryName = file
+      .replace('src/lib/', '')  // Remove base path
+      .replace(/\.[^/.]+$/, ''); // Remove extension
+    entries[entryName] = './' + file;
+  });
+  return entries;
+};
+
+// Combine all entries
+const getEntries = async () => {
+  const [modelEntries, utilEntries] = await Promise.all([
+    generateEntries('src/lib/models/**/*.js'),
+    generateEntries('src/lib/utils/**/*.js')
+  ]);
+  
+  return {
+    ...{
+      main: './app.js',
+      htmlindex: './src/index.js'
+    },
+    ...modelEntries,
+    ...utilEntries
+  };
+};
+
+const config = {
   mode: 'development',
-  entry: {
-    main: './app.js',
-    htmlindex: './src/index.js'
-  },
   output: {
     path: path.resolve(".", 'dist'),
-    filename: '[name].bundle.js',
+    filename: (pathData) => {
+      // Keep models and utils in their respective directories
+      if (pathData.chunk.name.includes('models/')) {
+        return 'models/[name].js';
+      }
+      if (pathData.chunk.name.includes('utils/')) {
+        return 'utils/[name].js';
+      }
+      return '[name].bundle.js';
+    },
+    library: {
+      type: 'module'
+    }
+  },
+  experiments: {
+    outputModule: true
   },
   devServer: {
     static: {
@@ -33,18 +75,12 @@ const module = {
       "crypto": false,
       "os": false,
       "async_hooks": false
-    }, 
-    // modules: [
-    //   path.resolve("...", 'src/lib/utils'),
-    //   path.resolve("__dirname", 'src/lib/models'),
-    //   path.resolve("__dirname", 'node_modules')
-    // ]
+    }
   },
   module: {
     rules: [
       {
         test: /\.(?:js|mjs|cjs)$/,
-        // exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
@@ -59,4 +95,7 @@ const module = {
   }
 };
 
-export default module
+export default async () => {
+  config.entry = await getEntries();
+  return config;
+};
